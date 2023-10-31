@@ -1,4 +1,4 @@
-d={}
+        d={}
         for c in s:
             if c in d:
                 d[c]=d[c]+1
