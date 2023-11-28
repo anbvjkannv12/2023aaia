@@ -1,8 +1,8 @@
-a,b =list(map(int,input().split()))
-if a<0:a=-a
-if b<0:b=-b
+a=57
+b=76
 ans=0
 for i in range(1,a+1):
-	if a%i==0 and b%i==0:
-		ans=i
-print(ans, end='')
+  if a%i==0 and b%i==0:
+    print(i, '有變數')
+    ans=i
+print(ans,'是最大公因數')
